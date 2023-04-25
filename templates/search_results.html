@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Résultats de la recherche</h2>
+  <ul>
+    {% for user in results %}
+      <li>{{ user.username }}</li>
+    {% endfor %}
+  </ul>
+  <a href="{{ url_for('search') }}">Retour à la recherche</a>
+{% endblock %}

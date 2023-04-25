@@ -1,0 +1,16 @@
+# .gitignore
+
+# Ignorer le fichier config.py
+config.py
+
+# Ignorer le dossier venv (environnement virtuel Python)
+venv/
+
+# Ignorer les fichiers .pyc (fichiers de cache Python)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorer les fichiers .pyc dans les sous-dossiers
+**/__pycache__/
